@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目蒸馏器"
+  short_description: "从成熟代码库提炼可复用的项目架构与工程框架 Skill"
+  default_prompt: "Use $project-distiller to analyze this mature codebase and generate an evidence-backed project framework skill."

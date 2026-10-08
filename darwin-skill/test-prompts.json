@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "scenario": "典型场景：单 skill 优化",
+    "prompt": "用 darwin-skill 优化 example-skill 这个 skill",
+    "expected": "skill 应引导：Phase 0 动态定位 skill_root 并检查 Git（非 Git 时明示降级为备份模式）→ Phase 0.5 设计 2-3 个 test-prompts → Phase 1 spawn 独立 judge 评 9 维 rubric → 按加权短板选维度（注意 dim2/3/4 相关簇）→ Phase 2 每轮只改 1 个维度，用明确的 base_commit/candidate_commit 做 paired 比较 → 仅在连续 2 个 kept 轮次均为 better 绝对多数且 better 票全为 slight 时早停，无绝对多数则 review → Phase 3 汇总 + 结果卡片"
+  },
+  {
+    "id": 2,
+    "scenario": "典型场景：全量评估",
+    "prompt": "评估所有 skills 的质量",
+    "expected": "skill 应执行 Phase 0-1：定位 skills 根目录并检查 Git 模式 → 扫描所有 SKILL.md → 设计并确认测试 prompts → 跑 runtime 中立性 gate → 用 9 维 rubric 打基线分 → 输出评分卡片（按分数排序，标注短板维度），不进入 Phase 2 优化循环"
+  },
+  {
+    "id": 3,
+    "scenario": "歧义/失败场景",
+    "prompt": "我想让你帮我把这个 skill 改得更好一点",
+    "expected": "skill 应识别为优化任务 → 询问优化范围（全量 / 单个）→ 检查异常（不在 git 仓库 / results.tsv 缺失等）按异常表 fallback → 设计测试 prompts，并在进入基线评估前展示给用户确认（检查点）"
+  }
+]
