@@ -189,7 +189,7 @@ python scripts/convert.py whitepaper.md --title "产品白皮书" --author "团�
 
 ## 更新日志
 
-### v1.0 (2025-12-24)
+### v1.0.0 (2025-12-24)
 - 初始版本
 - 支持完整 Markdown 语法
 - 苹果设计风格
