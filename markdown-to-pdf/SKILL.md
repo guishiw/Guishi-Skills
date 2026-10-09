@@ -5,6 +5,8 @@ description: |
   支持完整的 Markdown 语法（代码块、表格、引用、列表等）。
   自动生成封面、目录、页眉页脚。
   使用场景：技术文档、白皮书、教程、报告等需要专业排版的 Markdown 文档。
+metadata:
+  version: "1.0.0"
 ---
 
 # Markdown to PDF Skill

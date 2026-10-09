@@ -1,0 +1,4 @@
+interface:
+  display_name: "演示文稿工作流"
+  short_description: "从内容结构到成品 PPTX 的端到端制作流程"
+  default_prompt: "Use $presentation-workflow to turn this content into a complete presentation deck."
