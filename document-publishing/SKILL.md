@@ -1,6 +1,8 @@
 ---
 name: document-publishing
 description: "md/html/docx/pdf/epub 多向流水线，落地「md 生产，多端消费」。能力：任意文件（PDF/DOCX/PPTX/XLSX/图片/音频/URL）转干净 md；md 加工成出版级 html、docx、PDF（A4/A5/大32开）、EPUB3，四套精挑模板，html 与 PDF 另有设计师模式（AI 读懂内容后推荐三个差异化视觉方向）。SKIP：需要新生成图片、或只做压缩截图的任务。"
+metadata:
+  version: "1.0.0"
 ---
 
 # document-publishing

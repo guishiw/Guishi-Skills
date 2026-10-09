@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown 转 PDF"
+  short_description: "将 Markdown 排版为带目录和页眉页脚的专业 PDF"
+  default_prompt: "Use $markdown-to-pdf to convert this Markdown document into a polished PDF."

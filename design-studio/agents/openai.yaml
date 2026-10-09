@@ -1,0 +1,4 @@
+interface:
+  display_name: "原作者 Design Studio"
+  short_description: "制作高保真原型、幻灯片、动画与信息视觉"
+  default_prompt: "Use $design-studio to explore and produce a polished visual design for this request."
