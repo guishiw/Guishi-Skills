@@ -1,6 +1,8 @@
 ---
 name: design-studio
 description: 原作者Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不适用。
+metadata:
+  version: "1.0.0"
 ---
 
 # 原作者Design · Design-Studio

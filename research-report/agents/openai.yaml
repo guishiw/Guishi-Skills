@@ -1,0 +1,4 @@
+interface:
+  display_name: "机构级研究报告"
+  short_description: "撰写有方法、证据、机制与视觉系统的研究报告"
+  default_prompt: "Use $research-report to develop this topic into an evidence-backed institutional report."

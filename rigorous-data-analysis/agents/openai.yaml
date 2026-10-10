@@ -1,0 +1,4 @@
+interface:
+  display_name: "严谨数据分析"
+  short_description: "体检、清洗、核算并验证可追溯的业务数据结论"
+  default_prompt: "Use $rigorous-data-analysis to audit, analyze, and verify this dataset."
